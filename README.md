@@ -1,2 +1,2 @@
-# digitran
+# digitranin
 DigiTran Technologies
