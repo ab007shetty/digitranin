@@ -137,7 +137,7 @@ const works = [
     title: "E-Commerce Platform",
     img: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
     desc: "Scalable online marketplace for seamless shopping experiences.",
-    link: "https://ecommerce.example.com",
+    link: "https://www.depop.com/", // GenZ Fashion
     tech: ["React", "Node.js", "MongoDB"],
     category: "E-Commerce"
   },
@@ -145,7 +145,7 @@ const works = [
     title: "SaaS Dashboard",
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
     desc: "Real-time analytics and data visualization for SaaS products.",
-    link: "https://saasdash.example.com",
+    link: "https://www.elyosenergy.com", // Energy optimization SaaS startup
     tech: ["React", "Python", "AWS"],
     category: "Analytics"
   },
@@ -153,7 +153,7 @@ const works = [
     title: "Logistics Automation",
     img: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=300&fit=crop",
     desc: "Efficient fleet tracking and route optimization for logistics.",
-    link: "https://logistics.example.com",
+    link: "https://www.shipbob.com", // Growing e-commerce logistics platform
     tech: ["Flutter", "FastAPI", "PostgreSQL"],
     category: "Logistics"
   },
@@ -161,7 +161,7 @@ const works = [
     title: "Mobile Banking App",
     img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
     desc: "Secure banking application with intuitive mobile experience.",
-    link: "https://bankingapp.example.com",
+    link: "https://www.teller.io", // Banking API startup for fintech developers
     tech: ["React Native", "Node.js", "AWS"],
     category: "FinTech"
   },
@@ -169,7 +169,7 @@ const works = [
     title: "Healthcare Portal",
     img: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
     desc: "Telemedicine platform connecting patients and providers.",
-    link: "https://healthcare.example.com",
+    link: "https://www.healthtap.com", // AI-powered healthcare platform
     tech: ["React", "Python", "Docker"],
     category: "Healthcare"
   },
@@ -177,7 +177,7 @@ const works = [
     title: "EdTech Solution",
     img: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=400&h=300&fit=crop",
     desc: "Learning management system for interactive education.",
-    link: "https://edtech.example.com",
+    link: "https://www.physicsandmathstutor.com", // Growing educational platform
     tech: ["React", "Node.js", "MongoDB"],
     category: "Education"
   },
@@ -646,8 +646,16 @@ const handleContactSubmit = (e) => {
                         <span key={idx} className="bg-blue-50 text-blue-700 px-2 py-1 rounded-lg text-xs font-medium">
                           {tech}
                         </span>
+						
                       ))}
                     </div>
+					{/*/*<a 
+                      href={work.link}
+                      className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold text-sm group-hover:gap-3 transition-all duration-300"
+                    >
+                      View Project
+                      <FaArrowUp className="rotate-45 group-hover:translate-x-1 transition-transform" />
+                    </a>*/}
                   </div>
                 </div>
               ))}
@@ -714,7 +722,7 @@ const handleContactSubmit = (e) => {
                   We are a passionate team of developers, designers, and innovators dedicated to transforming businesses through cutting-edge technology solutions.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  With over 3 years of experience and 20+ successful projects, we've helped companies across various industries achieve their digital transformation goals. Our expertise spans from AI/ML solutions to modern web and mobile applications.
+                  With over 5 years of experience and 20+ successful projects, we've helped companies across various industries achieve their digital transformation goals. Our expertise spans from AI/ML solutions to modern web and mobile applications.
                 </p>
                 <div className="grid grid-cols-2 gap-6 pt-6">
                   <div className="text-center p-4 bg-blue-50 rounded-xl">
